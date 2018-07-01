@@ -1,0 +1,73 @@
+<div class="user-details">
+  <h1> Featured Projects </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/P1image1.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/P1image2.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-left">
+    <h3> Drug Re-purposing: Classification </h3>
+    <ul>
+      <li> R, Python, HDFS, PySpark, Neo4j, CaretStack, R Shiny</li>
+      <li> Algorithms: Logistic Regression</li>
+      <li> Evaluation Metrics: Accuracy, True Positive Rate (Sensitivity)</li>
+    </ul>
+    <p>ML on Networks: Drug re-purposing can be an alternative approach to
+      identifying new novel uses of existing FDA approved drugs. This project
+      computes the prediction probability of whether a compound will cure a disease.
+      Data is collected from 9 distinct sources and integrated into a network.
+      It uses Neo4j to incorporate the data as a heterogeneous network. Network
+      properties help in finding essential network links between each combination
+      of drug and disease. Performed feature extraction on the network and modeled
+      logistic regression classifier on the data to predict the probabilities for
+      all the drug-disease pairs. Utilized HDFS and Spark MLLib to achieve ML modeling.
+      Predicted new compound indications. This project proposes
+      to cut down the drug manufacturing costs by an estimate of 66.7%, through the
+      drug re-purposing.
+    </p>
+    <a class="project-link" href="#">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/P2image1.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/P2image2.jpg" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Predicting flight delays based on Airport and Airline data: Regression </h3>
+    <ul>
+      <li> Python, Flask_bootstrap, Sklearn, Seaborn, Bokeh</li>
+      <li> Algorithms: SVM, Linear & Ridge Regression, Random Forest and Neural Networks</li>
+      <li> Evaluation Metrics: MSE </li>
+    </ul>
+    <p>Predicts Flight departure delay for the origin airport and the airlines.
+      Presented this real-world problem as a software application, which embeds
+      machine learning algorithms. Flask allows the application software to take
+      user input data from the website and push it to machine learning algorithm.
+      Top 4 algorithms are Ridge Regression, Random Forest, Neural Net, and SVM.
+      The final results will show the departure delays for an airline from a specific airport.
+      Neural Net has performed the best by predicting the mean delay as 7.23 minutes for
+      AA airline from DFW.</p>
+    <a class="project-link" href="https://github.com/SarveshP/Predicting-the-flight-delays">Check it out</a>
+  </div>
+</div>
+<div class="user-projects">
+    <div class="images-right">
+      <img alt="mountains" src="{{ "/assets/img/digit.jpg" | prepend: site.baseurl }}" />
+    </div>
+    <div class="contents-left">
+      <h3> Handwritten Digit Recognition Analysis: Deep Learning  </h3>
+      <ul>
+        <li> Python, TensorFlow, Matplotlib </li>
+        <li> Algorithms: Deep Learning (CNN)</li>
+        <li> Evaluation Metrics: Accuracy (Deep Neural Nets) </li>
+      </ul>
+      <p>This model packs proper techniques like CNN, to preserve the shape information
+        instead of spreading the data into an array of 784 pixels. Drop out is utilized
+        to fix the over-fitting of data. Batch Normalization, to normalize the data for
+        further accuracy and greater learning rates. Ultimately, this model achieved an
+        accuracy of 0.991.</p>
+      <a class="project-link" href="https://github.com/SarveshP/Digit_Recognizer-Kaggle">Check it out</a>
+    </div>
+</div>
