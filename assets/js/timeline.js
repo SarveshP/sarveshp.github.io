@@ -1,8 +1,9 @@
 var experience = [
-{"from":"2013-09-01", "to":"2016-07-30",  "label":"Software Engineer", "where":"Tata Consultancy Services", "place": "Bangalore, India"},
+{"from":"2013-09-01", "to":"2016-07-30",  "label":"Systems/Software Engineer", "where":"Tata Consultancy Services", "place": "Bangalore, India"},
 {"from":"2017-05-01", "to":"2017-08-01",  "label":"Teaching Assistant Statistics", "where":"University of Oklahoma", "place":"Oklahoma, USA"},
-{"from":"2017-08-01", "to":"2017-12-31",  "label":"Teaching Assistant Data Analytics", "where":"University of Oklahoma", "place":"Oklahoma, USA"},
-{"from":"2018-02-01", "to":"2018-08-01",  "label":"Research Assistant Data Scientist", "where":"University of Oklahoma", "place":"Oklahoma, USA"}
+{"from":"2017-08-01", "to":"2017-12-31",  "label":"Teaching Assistant - Data Analytics", "where":"University of Oklahoma", "place":"Oklahoma, USA"},
+{"from":"2018-02-01", "to":"2018-05-11",  "label":"Graduate Research Assistant - Data Science", "where":"University of Oklahoma", "place":"Oklahoma, USA"}
+{"from":"2018-07-09", "to":"2018-09-01",  "label":"Research Assistant - Data Science", "where":"University of Oklahoma", "place":"Oklahoma, USA"}
 ];
 
 // var education = [
