@@ -2,6 +2,33 @@
   <h1> Featured Projects </h1>
 </div>
 <div class="user-projects">
+    <div class="images-left">
+      <img alt="mountains" src="{{ "/assets/img/P3image1.jpg" | prepend: site.baseurl }}" />
+      <img alt="mountains" src="{{ "/assets/img/P3image2.jpg" | prepend: site.baseurl }}" />
+    </div>
+    <div class="contents-right">
+      <h3> Airbnb New User Bookings: Classification </h3>
+      <ul>
+        <li> Python, Sklearn, Matplotlib, Seaborn </li>
+        <li> Algorithms: Random Forest, XGBoost </li>
+        <li> Evaluation Metrics: NDCG (Normalized Discounted Cumulative Gain) score </li>
+      </ul>
+      <p>Predicts where the new user will book their first travel experience.
+        Performed inferential statistics to analyze the relationship between various feature variables.
+        Majority of the users prefer countries with different languages. Likewise,
+        inferred 11 other observations. Evaluation metric NDCG (Normalized
+        Discounted Cumulative Gain) is utilized for this project. Engineered
+        new features and modeled random forest and XGBoost as multi-class
+        ensemble learner. Using the ranking metrics to recommend the top 5
+        countries, as personalized content, for new users classification problem.
+        Also, extracted essential features responsible for the prediction.
+        The final visualization tells us that many of the new users will make
+        their first booking in the US, France, and Italy. While NDF means No
+        Destination Found, Airbnb says that if it is NDF, there wasn't any booking.</p>
+      <a class="project-link" href="https://github.com/SarveshP/Airbnb-New-User-Bookings">Check it out</a>
+    </div>
+</div>
+<div class="user-projects">
   <div class="images-right">
     <img alt="mountains" src="{{ "/assets/img/P1image1.jpg" | prepend: site.baseurl }}" />
     <img alt="mountains" src="{{ "/assets/img/P1image2.jpg" | prepend: site.baseurl }}" />
@@ -28,33 +55,6 @@
     </p>
     <a class="project-link" href="#">Check it out</a>
   </div>
-</div>
-<div class="user-projects">
-    <div class="images-left">
-      <img alt="mountains" src="{{ "/assets/img/P3image1.jpg" | prepend: site.baseurl }}" />
-      <img alt="mountains" src="{{ "/assets/img/P3image2.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="contents-right">
-      <h3> Airbnb New User Bookings </h3>
-      <ul>
-        <li> Python, Sklearn, Matplotlib </li>
-        <li> Algorithms: Random Forest, XGBoost </li>
-        <li> Evaluation Metrics: NDCG (Normalized Discounted Cumulative Gain) score </li>
-      </ul>
-      <p>Predicts where the new user will book their first travel experience.
-        The strategy would be to utilize the data, perform data cleaning, data
-        exploration using visualizations, and testing various algorithms for
-        classification of the result. Evaluation metric NDCG (Normalized
-        Discounted Cumulative Gain) is utilized for this project. Engineered
-        new features and modeled random forest and XGBoost as multi-class
-        ensemble learner. Using the ranking metrics to recommend the top 5
-        countries, as personalized content, for new users classification problem.
-        Also, extracted essential features responsible for the prediction.
-        The final visualization tells us that many of the new users will make
-        their first booking in the US, France, and Italy. While NDF means No
-        Destination Found, Airbnb says that if it is NDF, there wasn't any booking.</p>
-      <a class="project-link" href="https://github.com/SarveshP/Airbnb-New-User-Bookings">Check it out</a>
-    </div>
 </div>
 <div class="user-projects">
   <div class="images-right">
